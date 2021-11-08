@@ -59,7 +59,7 @@ img
 {
     position: relative;
     left: 150px;
-    color: #6CCC00;
+    color: #0ED145;
 }
 .wheel__content
 {
@@ -84,7 +84,7 @@ img
 .wheel__inner:nth-child(3)
 {
     transform: rotate(200deg);
-    color: #6CCC00;
+    color: #0ED145;
 }
 .wheel__inner:nth-child(4)
 {
@@ -94,6 +94,10 @@ img
 .wheel__inner:nth-child(5)
 {
     transform: rotate(290deg);
+}
+.wheel__inner:nth-child(1)
+{
+    color: #fff;
 }
 .wheel__content:nth-child(5) { transform: rotate(41deg);}
 .wheel__content:nth-child(6) { transform: rotate(50deg);}
